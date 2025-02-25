@@ -1,4 +1,5 @@
-
+import NewDM from "./components/new dn";
+import ProfileInfo from "./components/profile info";
 
 const ContactsContainer = () => {
     return (
@@ -9,6 +10,7 @@ const ContactsContainer = () => {
             <div className="my-5">
                 <div className="flex items-center justify-between pr-10">
                     <Title text="Direct Message" />
+                    <NewDM />
 
                 </div>
 
@@ -20,6 +22,7 @@ const ContactsContainer = () => {
                 </div>
 
             </div>
+            <ProfileInfo />
         </div>
     );
 };
@@ -63,7 +66,7 @@ const Logo = () => {
 };
 
 const Title = ({ text }) => {
-    return(
+    return (
         <h6 className="uppercase tracking-widest text-neutral-400 pl-10 font-light text-opacity-90 text-sm">
             {text}
         </h6>

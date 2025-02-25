@@ -127,7 +127,7 @@ const Profile = () => {
     };
 
   return( 
-  <div className="bg-[#0e0f0f] h-[100vh] flex text-center justify-center flex-col gap-10 ">
+  <div className="bg-[#101010] h-[100vh] flex text-center justify-center flex-col gap-10  items-center">
     <div className="flex flex-col gap-10 w-[80vw] md:w-max">
       <div onClick={handleNavigate}>
         <IoArrowBack className="text-4xl lg:text" />
